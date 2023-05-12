@@ -7,7 +7,7 @@ in [Chen (2023)](https://arxiv.org/abs/2212.14444).
 
 ```R
 library(devtools)
-install_github("close", "jiafengkevinchen")
+devtools::install_github("jiafengkevinchen/close")
 ```
 
 ## Summary of method
