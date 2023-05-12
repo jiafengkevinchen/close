@@ -18,7 +18,7 @@ decisions based on $\theta_i$.
 
 CLOSE assumes that $\theta \mid \sigma$ is a location-scale family with location parameter
 $m_0$, scale parameter $s_0$, and shape parameter $G_0$.
-$$ P(\theta_i < t \mid \sigma_i) = G_0\left( \frac{t - m_0(\sigma_i)}{s_0(\sigma_i)} \right).$$
+$$P(\theta_i < t \mid \sigma_i) = G_0\left( \frac{t - m_0(\sigma_i)}{s_0(\sigma_i)} \right).$$
 
 CLOSE proposes to estimate $m_0, s_0$ via nonparametric regression.
 The method CLOSE-NPMLE additionally estimates $G_0$ via
