@@ -1,0 +1,13 @@
+Package: close
+Title: CLOSE: Empirical Bayes When Estimation Precision Predicts Parameters
+Version: 0.0.1
+Authors@R:
+    person("Jiafeng", "Chen", , "jiafengchen@g.harvard.edu", role = c("aut", "cre"))
+Description: Computes empirical Bayes posterior means for a vector of parameters from noisy estimates and their known standard errors. See Chen (2023) at arXiv:2212.14444
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    REBayes,
+    nprobust
